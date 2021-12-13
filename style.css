@@ -108,12 +108,14 @@ header .fa-bars{
     picture img{
         position: relative;
         z-index: -1;
+        background-size: cover;
     }
 
-    main .texto{
+    .texto{
         position: absolute;
         color: #fff;
         font-size: 20px;
+        text-shadow: 1px 1px 1px black;
     }
 
     .servico1{
@@ -145,6 +147,13 @@ header .fa-bars{
     .card{
         margin: 20px;
     }
+
+    .marcas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
 
 main{
@@ -304,4 +313,8 @@ footer{
 
 .politica a{
     color: #000;
+}
+
+.politica a:hover{
+    color: #fff;
 }
