@@ -105,7 +105,8 @@ header .fa-bars{
         opacity: 1;
     }
 
-    picture img{
+    .foto-fundo{
+        width: 100%;
         position: relative;
         z-index: -1;
         background-size: cover;
